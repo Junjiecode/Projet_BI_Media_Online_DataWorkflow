@@ -1,0 +1,8 @@
+Jupyterlab
+nbclient
+nbconvert
+pandas
+numpy
+gspread 
+google-auth
+google-ads
