@@ -8,4 +8,8 @@ google-auth
 google-ads
 facebook-business
 bingads
-pyjwt cryptography pycryptodome authlib
+pyjwt
+cryptography
+pycryptodome
+authlib
+
