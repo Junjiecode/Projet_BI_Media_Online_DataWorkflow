@@ -38,5 +38,5 @@ jobs:
       - id: jupyter
         name: Execute Jupyter Notebook
         run: |
-          jupyter nbconvert --to notebook --execute "test.ipynb" --output "output.ipynb"
+          jupyter nbconvert --to notebook --execute "ICP_Data_Pipeline.ipynb" --output "output.ipynb"
         shell: bash
