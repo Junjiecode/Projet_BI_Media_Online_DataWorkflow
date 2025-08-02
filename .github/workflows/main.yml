@@ -7,7 +7,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab 
   workflow_dispatch:
   schedule:
-    - cron: '00 04 * * *'  # Run at 6 am every morning (Since France time zone is UTC + 2, therefore we have to retrive 2 hours FROM UTC)
+    - cron: '15 06 * * *'  # Run at 6 am every morning (Since France time zone is UTC + 2, therefore we have to retrive 2 hours FROM UTC)
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
